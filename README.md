@@ -28,6 +28,7 @@ The top nav bar will help direct you to specific sections of the webpage.
 <img width="1440" alt="Screen Shot 2022-10-24 at 18 13 09" src="https://user-images.githubusercontent.com/113846649/197653992-0ddde08f-c641-41de-b92d-0d5c67e7514a.png">
 
 ##Link to Webpage
+https://wjg97.github.io/Wyatts-Portfolio/
 
 
 
