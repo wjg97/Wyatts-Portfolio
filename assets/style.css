@@ -1,150 +1,134 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
-    min-height: 100%;
-    font-family: sans-serif;
-    width: 100%;
-    
-  }
-  
-  header {
-    background-color: #008b80;
-    color: tan;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-h1 li {
-    display: inline;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  {
+  
+html {
+  height: 100%;
+}
+/*body*/
+body {
+  min-height: 100%;
+  font-family: sans-serif;
+  width: 100%;
+    
+}
+/*header*/
+header {
+  background-color: #008b80;
+  color: tan;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*title or my name*/
+h1 {
+  display: inline-block;
+  margin: 3%;
+/*header for the links*/
+}
+header ul {
+  text-align: right;
+  font-size: 18px;
+  display: inline-block;
+  margin: 3%;
+  color: tan;
+}
+/*main body*/
+main {
+  color:white;
+  background-color: #008b80;
+  padding-bottom: 9px;
+}
+/*image*/
+img {
+  max-width: 650px;
+  max-height: 900px;
+  margin: 20px;
+  margin-left: 390px;
+}
+/*sub titles*/
+h2 {
+  text-align: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+/*footer*/
+footer {
+  font-size: 15px;
+  color: whitesmoke;
+  background-color: #035042;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+/*name at top*/
+.title {
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 440px;
+}
+/*about me section*/
+.bio {
+  text-align: center;
+  width: 90%;
+  border: solid blue 2px;
+  border-radius: 15px;
+  background: rgb(193, 55, 188);
+  padding: 10px;
+  align-items: baseline;
+  margin-left: 70px;
+}
+/*my websites*/
+.work {
+  border: 10px solid rgb(252, 6, 6);
+  border-radius: 4px;
+  padding: 3px;
+  width: 500px;
+  margin-left: 460px;
+}
+/*makes photo in projects section a button*/
+.work:hover {
+  box-shadow: 0 0 2px 1px rgba(228, 4, 4, 0.5);
+  cursor: pointer;
+}
+/*centers and makes the section a button*/    
+.projects {
+  border-left: 40px;
+  text-align: center;
+  width: 30%;
+  border: solid blue 2px;
+  border-radius: 15px;
+  background: rgb(193, 55, 188);
+  padding: 10px;
+  align-items: baseline;
+  margin: 20px;
+  margin-left: 500px;
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  }
-
-  h1{
-    display: inline-block;
-    margin: 3%;
-
-  }
-  header ul {
-    text-align: right;
-    font-size: 18px;
-    display: inline-block;
-    margin: 3%;
-    color: tan;
-  }
-
-  main {
-    color:white;
-    background-color: #008b80;
-    padding-bottom: 9px;
-  }
-
-  img {
-    max-width: 650px;
-    max-height: 900px;
-    margin: 20px;
-    margin-left: 390px;
-  }
-
-  h2 {
-    text-align: center;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
-
-  footer {
-    font-size: 15px;
-    color: whitesmoke;
-    background-color: #035042;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    
-    
-  }
-
-  /*aside {
-    padding: 10px;
-  }*/
-
-  .title {
-    text-align: left;
-    padding-top: 20px;
-    padding-right: 440px;
-  }
-
-  .work {
-    border: 10px solid rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: 3px;
-    width: 500px;
-    margin-left: 460px;
-  }
-
-  .work:hover {
-    box-shadow: 0 0 2px 1px rgba(228, 4, 4, 0.5);
-    cursor: pointer;
-    ;
-  }
-
-  /*.image{
-    flex-basis: 40%;*/
-
-  .bio {
-    text-align: center;
-    width: 90%;
-    border: solid blue 2px;
-    border-radius: 15px;
-    background: rgb(193, 55, 188);
-    padding: 10px;
-    align-items: baseline;
-    margin-left: 70px;
-  }
-    
-  .projects {
-    border-left: 40px;
-    text-align: center;
-    width: 30%;
-    border: solid blue 2px;
-    border-radius: 15px;
-    background: rgb(193, 55, 188);
-    padding: 10px;
-    align-items: baseline;
-    margin: 20px;
-    margin-left: 500px;
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  }
-
-  .contact {
-    border-left: 40px;
-    text-align: center;
-    width: 30%;
-    border: solid blue 2px;
-    border-radius: 15px;
-    background: rgb(193, 55, 188);
-    padding: 10px;
-    align-items: baseline;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 500px;
-    display: inline-flexbox;
-  }
-
-  .photo {
-    height: 800px;
-    width: 100%;
-    /*margin-bottom: 25px;*/
-    background-image: url("../assets/images/MeAtTheSinks.JPG");
-    background-size: cover;
-    background-position: center;
-  }
+}
+/*centers and puts the buttons in a box*/
+.contact {
+  border-left: 40px;
+  text-align: center;
+  width: 30%;
+  border: solid blue 2px;
+  border-radius: 15px;
+  background: rgb(193, 55, 188);
+  padding: 10px;
+  align-items: baseline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  display: inline-flexbox;
+}
+/*top big photo*/
+.photo {
+  height: 800px;
+  width: 100%;
+  /*margin-bottom: 25px;*/
+  background-image: url("../assets/images/MeAtTheSinks.JPG");
+  background-size: cover;
+  background-position: center;
+}
