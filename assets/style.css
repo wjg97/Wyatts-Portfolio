@@ -16,7 +16,7 @@ body {
 }
 /*header*/
 header {
-  background-color: #008b80;
+  background-color: #00948a;
   color: tan;
   justify-content: space-evenly;
   display: flex;
@@ -39,7 +39,7 @@ header ul {
 /*main body*/
 main {
   color:white;
-  background-color: #008b80;
+  background-color: #00768b;
   padding-bottom: 9px;
 }
 /*image*/
@@ -145,8 +145,8 @@ footer {
 .dogAdopt {
   border: 10px solid rgb(13, 132, 187);
   border-radius: 4px;
-  padding: 3px;
+  padding: 1px;
   width: 500px;
-  margin-left: 4o0px;
+  margin-left: 800px;
   height: 288px;
 }
