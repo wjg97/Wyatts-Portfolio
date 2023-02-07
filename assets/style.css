@@ -134,10 +134,19 @@ footer {
 }
 
 .screenshot {
-  border: 10px solid rgb(42, 13, 187);
+  border: 10px solid rgb(226, 146, 60);
   border-radius: 4px;
   padding: 3px;
   width: 500px;
   margin-left: 40px;
+  height: 288px;
+}
+
+.dogAdopt {
+  border: 10px solid rgb(13, 132, 187);
+  border-radius: 4px;
+  padding: 3px;
+  width: 500px;
+  margin-left: 4o0px;
   height: 288px;
 }
